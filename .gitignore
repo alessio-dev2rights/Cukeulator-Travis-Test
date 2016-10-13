@@ -35,3 +35,7 @@ Icon?
 Thumbs.db
 test-json-report.json
 testng/test-output/
+build
+.gradle
+*.properties
+*.jar

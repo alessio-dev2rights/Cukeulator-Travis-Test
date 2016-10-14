@@ -10,6 +10,8 @@ env:
   - ADB_INSTALL_TIMEOUT=20
   - ANDROID_TAG=google_apis
   - ANDROID_HOME=${TRAVIS_BUILD_DIR}/android-sdk
+  - PATH=${ANDROID_HOME}/:${ANDROID_HOME}/tools/:${ANDROID_HOME}/platform-tools/:${PATH}
+
 android:
   components:
   - tools

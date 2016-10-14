@@ -30,6 +30,8 @@ before_script:
 - emulator -avd test -no-skin -no-audio -no-window &
 - adb -s emulator-5554 shell input keyevent 82 &
 - gem install cucumber
+- mkdir 755 ./.android
+- ls -la
 script:
 #BuildRelease
 - ./gradlew clean check connectedCheck --stacktrace assembleRelease

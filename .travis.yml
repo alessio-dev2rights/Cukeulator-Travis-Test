@@ -32,6 +32,4 @@ before_script:
   - emulator -avd test -no-skin -no-audio -no-window &
   - android-wait-for-emulator
   - adb -s emulator-5554 shell input keyevent 82 &
-  - gem install cucumberscript:
-script:
-  - ./gradlew clean check connectedCheck --stacktrace assembleDebug
+  - gem install cucumber

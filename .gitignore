@@ -38,4 +38,3 @@ testng/test-output/
 build
 .gradle
 *.properties
-*.jar
